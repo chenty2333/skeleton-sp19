@@ -52,8 +52,6 @@ public class NBody {
 
             for (int i = 0; i < len; i++) {
                 Bodies[i].update(dt, xForces[i], yForces[i]);
-                Bodies[i].update(dt, xForces[i], yForces[i]);
-
             }
 
             StdDraw.picture(0, 0, Path + "starfield.jpg", 2 * radius, 2 * radius);
